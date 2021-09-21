@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:text="BIG MAN CLUB"
             android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="35sp"
             android:textColor="@color/colorAccent"
             android:fontFamily="sans-serif-condensed"
             android:layout_gravity="center">
