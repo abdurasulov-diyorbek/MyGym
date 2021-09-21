@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#0E0402"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:background="#0E0402 ">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_gravity="top"
+            android:src="@drawable/gym">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIG MAN CLUB"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Come Train With us!"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#F1C40F"
+            android:textSize="24sp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/location"
+                    android:layout_gravity="center_vertical"
+                    android:tint="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Broadway 7, Tashkent city, Uzbekistan."
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/phone"
+                    android:tint="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+998 (93) 615 07 04"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/internet"
+                    android:tint="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="www.bigmangym.com"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/email"
+                    android:tint="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bigmangym@gmail.com"
+                    android:textSize="20sp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join us in Social networks!"
+            android:textColor="#F1C40F"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="15dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/youTubeButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/youtube"/>
+            <ImageView
+                android:id="@+id/instagramButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/instagram"/>
+            <ImageView
+                android:id="@+id/facebookButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/facebook"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
